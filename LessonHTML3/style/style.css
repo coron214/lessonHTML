@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* 共通設定 */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+img {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    opacity: 0.5;
+}
+
+/* 共通クラス */
+.sec-title {
+    margin: 60px 0 100px 0;
+    text-align: center;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+/* ヘッダー */
+.header {
+    margin: 5px 0;
+}
+.header img {
+    width: 140px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav ul {
+    display: flex;
+}
+.header nav ul li {
+    margin-left: 30px;
+}
+
+/* About */
+#About {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    border-bottom: solid 1px black;
+}
+
+#about-content {
+    margin: 0 auto;
+    max-width: 600px;
+    
+}
+#about-content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 30px
+}   
+#about-content .text {
+    text-align: left;
+    font-size: 1rem;
+}
+
+/* Bicycle */
+#Bicycle {
+    display: inline-block;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 60px;
+    border-bottom: solid 1px black;
+}
+
+#bicycle-content li {
+    width: 32%;
+}
+#bicycle-content li * {
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+}

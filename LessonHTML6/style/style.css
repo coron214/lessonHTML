@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*----------------------------
+共通設定
+----------------------------*/
+html {
+    font-size: 100%;
+}
+img {
+    width: 100%;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+/*----------------------------
+レシピ
+-----------------------------*/
+#recipe {
+    margin-bottom: 40px;
+}
+/*----------------------------
+レシピ画像
+----------------------------*/
+.recipe-image {
+    width: 50%;
+}
+.recipe-image img{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+/*----------------------------
+レシピ詳細
+----------------------------*/
+.recipe-content{
+    width: 50%;
+    padding: 30px 5% 0 5%;
+}
+.recipe-title {
+    margin-bottom:20px;
+}
+.recipe-summary {
+    margin-bottom: 30px;
+}
+/*-----------------------------
+レシピ一覧
+-----------------------------*/
+.recipe-list-title {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+.recipe-list-detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.recipe-list-detail * {
+    border-bottom: dotted 1px #ccc;
+    padding: 10px 0;
+    font-size: 0.85rem;
+}
+.recipe-list-detail dt {
+    width: 80%;
+}
+.recipe-list-detail dd {
+    width: 20%;
+    text-align: right;
+}
+/*-----------------------------
+作り方一覧
+-----------------------------*/
+.make-list-title {
+    border-bottom: solid 1px #ccc;
+    margin-bottom: 10px;
+}
+.make-list-detail {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.make-list-detail * {
+    font-size: 0.85rem;
+    border-bottom: dotted 1px #ccc;
+    width: 100%;
+    margin-left:25px;
+    padding: 10px 0;
+}
+/*------------------------
+レシピ一覧を見る
+-------------------------*/
+#show-recipe {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#show-recipe a {
+    border: solid 1px #ccc;
+    padding: 20px 50px;
+    text-decoration: none;
+    text-align: center;
+}
+#show-recipe a:hover {
+    opacity: 0.5;
+}
+/*------------------------
+SNSへのリンク
+-------------------------*/
+#sns {
+    margin-bottom: 20px;
+}
+#sns ul {
+    display: flex;
+    justify-content: center;
+}
+#sns ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+/*--------------------------
+フッター
+---------------------------*/
+footer {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 0.75rem;
+}
